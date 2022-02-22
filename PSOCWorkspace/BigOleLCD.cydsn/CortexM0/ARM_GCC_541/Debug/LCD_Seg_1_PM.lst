@@ -1,0 +1,556 @@
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"LCD_Seg_1_PM.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.LCD_Seg_1_SaveConfig,"ax",%progbits
+  20              		.align	2
+  21              		.global	LCD_Seg_1_SaveConfig
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	LCD_Seg_1_SaveConfig, %function
+  25              	LCD_Seg_1_SaveConfig:
+  26              	.LFB0:
+  27              		.file 1 "Generated_Source\\PSoC4\\LCD_Seg_1_PM.c"
+   1:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * File Name: LCD_Seg_1_PM.c
+   3:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Version 1.30
+   4:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+   5:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Description:
+   6:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  This file provides the API source code for Power Management of the Segment
+   7:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  LCD component.
+   8:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+   9:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Note:
+  10:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None
+  11:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  12:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** ********************************************************************************
+  13:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Copyright 2013-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  14:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * You may use this file only in accordance with the license, terms, conditions,
+  15:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  16:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * the software package with which this file was provided.
+  17:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *******************************************************************************/
+  18:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  19:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** #include "LCD_Seg_1.h"
+  20:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  21:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  22:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** /*******************************************************************************
+  23:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Function Name: LCD_Seg_1_SaveConfig
+  24:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** ********************************************************************************
+  25:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  26:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Summary:
+  27:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  Saves user data. This API is called by LCD_Seg_1_Sleep() function.
+  28:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  29:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Parameters:
+  30:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 2
+
+
+  31:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  32:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Return:
+  33:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  34:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  35:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *******************************************************************************/
+  36:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** void LCD_Seg_1_SaveConfig(void)
+  37:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** {
+  28              		.loc 1 37 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  38:Generated_Source\PSoC4/LCD_Seg_1_PM.c ****     /* Nothing to save for current version of the component */
+  39:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** }
+  33              		.loc 1 39 0
+  34              		@ sp needed
+  35 0000 7047     		bx	lr
+  36              		.cfi_endproc
+  37              	.LFE0:
+  38              		.size	LCD_Seg_1_SaveConfig, .-LCD_Seg_1_SaveConfig
+  39 0002 C046     		.section	.text.LCD_Seg_1_RestoreConfig,"ax",%progbits
+  40              		.align	2
+  41              		.global	LCD_Seg_1_RestoreConfig
+  42              		.code	16
+  43              		.thumb_func
+  44              		.type	LCD_Seg_1_RestoreConfig, %function
+  45              	LCD_Seg_1_RestoreConfig:
+  46              	.LFB1:
+  40:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  41:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  42:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** /*******************************************************************************
+  43:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Function Name: LCD_Seg_1_RestoreConfig
+  44:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** ********************************************************************************
+  45:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  46:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Summary:
+  47:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  Restores user data. This API is called by LCD_Seg_1_Wakeup() function.
+  48:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  49:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Parameters:
+  50:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  51:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  52:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Return:
+  53:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  54:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  55:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *******************************************************************************/
+  56:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** void LCD_Seg_1_RestoreConfig(void)
+  57:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** {
+  47              		.loc 1 57 0
+  48              		.cfi_startproc
+  49              		@ args = 0, pretend = 0, frame = 0
+  50              		@ frame_needed = 0, uses_anonymous_args = 0
+  51              		@ link register save eliminated.
+  58:Generated_Source\PSoC4/LCD_Seg_1_PM.c ****     /* Nothing to restore for current version of the component */
+  59:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** }
+  52              		.loc 1 59 0
+  53              		@ sp needed
+  54 0000 7047     		bx	lr
+  55              		.cfi_endproc
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 3
+
+
+  56              	.LFE1:
+  57              		.size	LCD_Seg_1_RestoreConfig, .-LCD_Seg_1_RestoreConfig
+  58 0002 C046     		.section	.text.LCD_Seg_1_Sleep,"ax",%progbits
+  59              		.align	2
+  60              		.global	LCD_Seg_1_Sleep
+  61              		.code	16
+  62              		.thumb_func
+  63              		.type	LCD_Seg_1_Sleep, %function
+  64              	LCD_Seg_1_Sleep:
+  65              	.LFB2:
+  60:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  61:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  62:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** /*******************************************************************************
+  63:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Function Name: LCD_Seg_1_Sleep
+  64:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** ********************************************************************************
+  65:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  66:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Summary:
+  67:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  Prepares the component to enter Sleep mode.
+  68:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  69:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Parameters:
+  70:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  71:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  72:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Return:
+  73:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  74:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  75:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *******************************************************************************/
+  76:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** void LCD_Seg_1_Sleep(void)
+  77:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** {
+  66              		.loc 1 77 0
+  67              		.cfi_startproc
+  68              		@ args = 0, pretend = 0, frame = 0
+  69              		@ frame_needed = 0, uses_anonymous_args = 0
+  70              		@ link register save eliminated.
+  78:Generated_Source\PSoC4/LCD_Seg_1_PM.c ****     LCD_Seg_1_SaveConfig();
+  79:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** }
+  71              		.loc 1 79 0
+  72              		@ sp needed
+  73 0000 7047     		bx	lr
+  74              		.cfi_endproc
+  75              	.LFE2:
+  76              		.size	LCD_Seg_1_Sleep, .-LCD_Seg_1_Sleep
+  77 0002 C046     		.section	.text.LCD_Seg_1_Wakeup,"ax",%progbits
+  78              		.align	2
+  79              		.global	LCD_Seg_1_Wakeup
+  80              		.code	16
+  81              		.thumb_func
+  82              		.type	LCD_Seg_1_Wakeup, %function
+  83              	LCD_Seg_1_Wakeup:
+  84              	.LFB3:
+  80:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  81:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** 
+  82:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** /*******************************************************************************
+  83:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Function Name: LCD_Seg_1_Wakeup
+  84:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** ********************************************************************************
+  85:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  86:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Summary:
+  87:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  Restores component after exiting Sleep mode.
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 4
+
+
+  88:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  89:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Parameters:
+  90:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  91:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  92:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** * Return:
+  93:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *  None.
+  94:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *
+  95:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** *******************************************************************************/
+  96:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** void LCD_Seg_1_Wakeup(void)
+  97:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** {
+  85              		.loc 1 97 0
+  86              		.cfi_startproc
+  87              		@ args = 0, pretend = 0, frame = 0
+  88              		@ frame_needed = 0, uses_anonymous_args = 0
+  89              		@ link register save eliminated.
+  98:Generated_Source\PSoC4/LCD_Seg_1_PM.c ****     LCD_Seg_1_RestoreConfig();
+  99:Generated_Source\PSoC4/LCD_Seg_1_PM.c **** }
+  90              		.loc 1 99 0
+  91              		@ sp needed
+  92 0000 7047     		bx	lr
+  93              		.cfi_endproc
+  94              	.LFE3:
+  95              		.size	LCD_Seg_1_Wakeup, .-LCD_Seg_1_Wakeup
+  96 0002 C046     		.text
+  97              	.Letext0:
+  98              		.section	.debug_info,"",%progbits
+  99              	.Ldebug_info0:
+ 100 0000 CF000000 		.4byte	0xcf
+ 101 0004 0400     		.2byte	0x4
+ 102 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 103 000a 04       		.byte	0x4
+ 104 000b 01       		.uleb128 0x1
+ 105 000c F0000000 		.4byte	.LASF18
+ 106 0010 0C       		.byte	0xc
+ 107 0011 C7010000 		.4byte	.LASF19
+ 108 0015 2C000000 		.4byte	.LASF20
+ 109 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 110 001d 00000000 		.4byte	0
+ 111 0021 00000000 		.4byte	.Ldebug_line0
+ 112 0025 02       		.uleb128 0x2
+ 113 0026 01       		.byte	0x1
+ 114 0027 06       		.byte	0x6
+ 115 0028 91010000 		.4byte	.LASF0
+ 116 002c 02       		.uleb128 0x2
+ 117 002d 01       		.byte	0x1
+ 118 002e 08       		.byte	0x8
+ 119 002f C3000000 		.4byte	.LASF1
+ 120 0033 02       		.uleb128 0x2
+ 121 0034 02       		.byte	0x2
+ 122 0035 05       		.byte	0x5
+ 123 0036 DF000000 		.4byte	.LASF2
+ 124 003a 02       		.uleb128 0x2
+ 125 003b 02       		.byte	0x2
+ 126 003c 07       		.byte	0x7
+ 127 003d 7E010000 		.4byte	.LASF3
+ 128 0041 02       		.uleb128 0x2
+ 129 0042 04       		.byte	0x4
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 5
+
+
+ 130 0043 05       		.byte	0x5
+ 131 0044 D6000000 		.4byte	.LASF4
+ 132 0048 02       		.uleb128 0x2
+ 133 0049 04       		.byte	0x4
+ 134 004a 07       		.byte	0x7
+ 135 004b 85000000 		.4byte	.LASF5
+ 136 004f 02       		.uleb128 0x2
+ 137 0050 08       		.byte	0x8
+ 138 0051 05       		.byte	0x5
+ 139 0052 00000000 		.4byte	.LASF6
+ 140 0056 02       		.uleb128 0x2
+ 141 0057 08       		.byte	0x8
+ 142 0058 07       		.byte	0x7
+ 143 0059 97000000 		.4byte	.LASF7
+ 144 005d 03       		.uleb128 0x3
+ 145 005e 04       		.byte	0x4
+ 146 005f 05       		.byte	0x5
+ 147 0060 696E7400 		.ascii	"int\000"
+ 148 0064 02       		.uleb128 0x2
+ 149 0065 04       		.byte	0x4
+ 150 0066 07       		.byte	0x7
+ 151 0067 0E000000 		.4byte	.LASF8
+ 152 006b 02       		.uleb128 0x2
+ 153 006c 04       		.byte	0x4
+ 154 006d 04       		.byte	0x4
+ 155 006e C1010000 		.4byte	.LASF9
+ 156 0072 02       		.uleb128 0x2
+ 157 0073 08       		.byte	0x8
+ 158 0074 04       		.byte	0x4
+ 159 0075 E9000000 		.4byte	.LASF10
+ 160 0079 02       		.uleb128 0x2
+ 161 007a 01       		.byte	0x1
+ 162 007b 08       		.byte	0x8
+ 163 007c D1000000 		.4byte	.LASF11
+ 164 0080 02       		.uleb128 0x2
+ 165 0081 08       		.byte	0x8
+ 166 0082 04       		.byte	0x4
+ 167 0083 B5010000 		.4byte	.LASF12
+ 168 0087 02       		.uleb128 0x2
+ 169 0088 04       		.byte	0x4
+ 170 0089 07       		.byte	0x7
+ 171 008a ED010000 		.4byte	.LASF13
+ 172 008e 04       		.uleb128 0x4
+ 173 008f AE000000 		.4byte	.LASF14
+ 174 0093 01       		.byte	0x1
+ 175 0094 24       		.byte	0x24
+ 176 0095 00000000 		.4byte	.LFB0
+ 177 0099 02000000 		.4byte	.LFE0-.LFB0
+ 178 009d 01       		.uleb128 0x1
+ 179 009e 9C       		.byte	0x9c
+ 180 009f 04       		.uleb128 0x4
+ 181 00a0 9D010000 		.4byte	.LASF15
+ 182 00a4 01       		.byte	0x1
+ 183 00a5 38       		.byte	0x38
+ 184 00a6 00000000 		.4byte	.LFB1
+ 185 00aa 02000000 		.4byte	.LFE1-.LFB1
+ 186 00ae 01       		.uleb128 0x1
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 6
+
+
+ 187 00af 9C       		.byte	0x9c
+ 188 00b0 04       		.uleb128 0x4
+ 189 00b1 75000000 		.4byte	.LASF16
+ 190 00b5 01       		.byte	0x1
+ 191 00b6 4C       		.byte	0x4c
+ 192 00b7 00000000 		.4byte	.LFB2
+ 193 00bb 02000000 		.4byte	.LFE2-.LFB2
+ 194 00bf 01       		.uleb128 0x1
+ 195 00c0 9C       		.byte	0x9c
+ 196 00c1 04       		.uleb128 0x4
+ 197 00c2 1B000000 		.4byte	.LASF17
+ 198 00c6 01       		.byte	0x1
+ 199 00c7 60       		.byte	0x60
+ 200 00c8 00000000 		.4byte	.LFB3
+ 201 00cc 02000000 		.4byte	.LFE3-.LFB3
+ 202 00d0 01       		.uleb128 0x1
+ 203 00d1 9C       		.byte	0x9c
+ 204 00d2 00       		.byte	0
+ 205              		.section	.debug_abbrev,"",%progbits
+ 206              	.Ldebug_abbrev0:
+ 207 0000 01       		.uleb128 0x1
+ 208 0001 11       		.uleb128 0x11
+ 209 0002 01       		.byte	0x1
+ 210 0003 25       		.uleb128 0x25
+ 211 0004 0E       		.uleb128 0xe
+ 212 0005 13       		.uleb128 0x13
+ 213 0006 0B       		.uleb128 0xb
+ 214 0007 03       		.uleb128 0x3
+ 215 0008 0E       		.uleb128 0xe
+ 216 0009 1B       		.uleb128 0x1b
+ 217 000a 0E       		.uleb128 0xe
+ 218 000b 55       		.uleb128 0x55
+ 219 000c 17       		.uleb128 0x17
+ 220 000d 11       		.uleb128 0x11
+ 221 000e 01       		.uleb128 0x1
+ 222 000f 10       		.uleb128 0x10
+ 223 0010 17       		.uleb128 0x17
+ 224 0011 00       		.byte	0
+ 225 0012 00       		.byte	0
+ 226 0013 02       		.uleb128 0x2
+ 227 0014 24       		.uleb128 0x24
+ 228 0015 00       		.byte	0
+ 229 0016 0B       		.uleb128 0xb
+ 230 0017 0B       		.uleb128 0xb
+ 231 0018 3E       		.uleb128 0x3e
+ 232 0019 0B       		.uleb128 0xb
+ 233 001a 03       		.uleb128 0x3
+ 234 001b 0E       		.uleb128 0xe
+ 235 001c 00       		.byte	0
+ 236 001d 00       		.byte	0
+ 237 001e 03       		.uleb128 0x3
+ 238 001f 24       		.uleb128 0x24
+ 239 0020 00       		.byte	0
+ 240 0021 0B       		.uleb128 0xb
+ 241 0022 0B       		.uleb128 0xb
+ 242 0023 3E       		.uleb128 0x3e
+ 243 0024 0B       		.uleb128 0xb
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 7
+
+
+ 244 0025 03       		.uleb128 0x3
+ 245 0026 08       		.uleb128 0x8
+ 246 0027 00       		.byte	0
+ 247 0028 00       		.byte	0
+ 248 0029 04       		.uleb128 0x4
+ 249 002a 2E       		.uleb128 0x2e
+ 250 002b 00       		.byte	0
+ 251 002c 3F       		.uleb128 0x3f
+ 252 002d 19       		.uleb128 0x19
+ 253 002e 03       		.uleb128 0x3
+ 254 002f 0E       		.uleb128 0xe
+ 255 0030 3A       		.uleb128 0x3a
+ 256 0031 0B       		.uleb128 0xb
+ 257 0032 3B       		.uleb128 0x3b
+ 258 0033 0B       		.uleb128 0xb
+ 259 0034 27       		.uleb128 0x27
+ 260 0035 19       		.uleb128 0x19
+ 261 0036 11       		.uleb128 0x11
+ 262 0037 01       		.uleb128 0x1
+ 263 0038 12       		.uleb128 0x12
+ 264 0039 06       		.uleb128 0x6
+ 265 003a 40       		.uleb128 0x40
+ 266 003b 18       		.uleb128 0x18
+ 267 003c 9742     		.uleb128 0x2117
+ 268 003e 19       		.uleb128 0x19
+ 269 003f 00       		.byte	0
+ 270 0040 00       		.byte	0
+ 271 0041 00       		.byte	0
+ 272              		.section	.debug_aranges,"",%progbits
+ 273 0000 34000000 		.4byte	0x34
+ 274 0004 0200     		.2byte	0x2
+ 275 0006 00000000 		.4byte	.Ldebug_info0
+ 276 000a 04       		.byte	0x4
+ 277 000b 00       		.byte	0
+ 278 000c 0000     		.2byte	0
+ 279 000e 0000     		.2byte	0
+ 280 0010 00000000 		.4byte	.LFB0
+ 281 0014 02000000 		.4byte	.LFE0-.LFB0
+ 282 0018 00000000 		.4byte	.LFB1
+ 283 001c 02000000 		.4byte	.LFE1-.LFB1
+ 284 0020 00000000 		.4byte	.LFB2
+ 285 0024 02000000 		.4byte	.LFE2-.LFB2
+ 286 0028 00000000 		.4byte	.LFB3
+ 287 002c 02000000 		.4byte	.LFE3-.LFB3
+ 288 0030 00000000 		.4byte	0
+ 289 0034 00000000 		.4byte	0
+ 290              		.section	.debug_ranges,"",%progbits
+ 291              	.Ldebug_ranges0:
+ 292 0000 00000000 		.4byte	.LFB0
+ 293 0004 02000000 		.4byte	.LFE0
+ 294 0008 00000000 		.4byte	.LFB1
+ 295 000c 02000000 		.4byte	.LFE1
+ 296 0010 00000000 		.4byte	.LFB2
+ 297 0014 02000000 		.4byte	.LFE2
+ 298 0018 00000000 		.4byte	.LFB3
+ 299 001c 02000000 		.4byte	.LFE3
+ 300 0020 00000000 		.4byte	0
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 8
+
+
+ 301 0024 00000000 		.4byte	0
+ 302              		.section	.debug_line,"",%progbits
+ 303              	.Ldebug_line0:
+ 304 0000 84000000 		.section	.debug_str,"MS",%progbits,1
+ 304      02003C00 
+ 304      00000201 
+ 304      FB0E0D00 
+ 304      01010101 
+ 305              	.LASF6:
+ 306 0000 6C6F6E67 		.ascii	"long long int\000"
+ 306      206C6F6E 
+ 306      6720696E 
+ 306      7400
+ 307              	.LASF8:
+ 308 000e 756E7369 		.ascii	"unsigned int\000"
+ 308      676E6564 
+ 308      20696E74 
+ 308      00
+ 309              	.LASF17:
+ 310 001b 4C43445F 		.ascii	"LCD_Seg_1_Wakeup\000"
+ 310      5365675F 
+ 310      315F5761 
+ 310      6B657570 
+ 310      00
+ 311              	.LASF20:
+ 312 002c 433A5C55 		.ascii	"C:\\Users\\iborg\\Documents\\working\\BigOleLCD\\PS"
+ 312      73657273 
+ 312      5C69626F 
+ 312      72675C44 
+ 312      6F63756D 
+ 313 0059 4F43576F 		.ascii	"OCWorkspace\\BigOleLCD.cydsn\000"
+ 313      726B7370 
+ 313      6163655C 
+ 313      4269674F 
+ 313      6C654C43 
+ 314              	.LASF16:
+ 315 0075 4C43445F 		.ascii	"LCD_Seg_1_Sleep\000"
+ 315      5365675F 
+ 315      315F536C 
+ 315      65657000 
+ 316              	.LASF5:
+ 317 0085 6C6F6E67 		.ascii	"long unsigned int\000"
+ 317      20756E73 
+ 317      69676E65 
+ 317      6420696E 
+ 317      7400
+ 318              	.LASF7:
+ 319 0097 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 319      206C6F6E 
+ 319      6720756E 
+ 319      7369676E 
+ 319      65642069 
+ 320              	.LASF14:
+ 321 00ae 4C43445F 		.ascii	"LCD_Seg_1_SaveConfig\000"
+ 321      5365675F 
+ 321      315F5361 
+ 321      7665436F 
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 9
+
+
+ 321      6E666967 
+ 322              	.LASF1:
+ 323 00c3 756E7369 		.ascii	"unsigned char\000"
+ 323      676E6564 
+ 323      20636861 
+ 323      7200
+ 324              	.LASF11:
+ 325 00d1 63686172 		.ascii	"char\000"
+ 325      00
+ 326              	.LASF4:
+ 327 00d6 6C6F6E67 		.ascii	"long int\000"
+ 327      20696E74 
+ 327      00
+ 328              	.LASF2:
+ 329 00df 73686F72 		.ascii	"short int\000"
+ 329      7420696E 
+ 329      7400
+ 330              	.LASF10:
+ 331 00e9 646F7562 		.ascii	"double\000"
+ 331      6C6500
+ 332              	.LASF18:
+ 333 00f0 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 333      43313120 
+ 333      352E342E 
+ 333      31203230 
+ 333      31363036 
+ 334 0123 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 334      20726576 
+ 334      6973696F 
+ 334      6E203233 
+ 334      37373135 
+ 335 0156 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 335      66756E63 
+ 335      74696F6E 
+ 335      2D736563 
+ 335      74696F6E 
+ 336              	.LASF3:
+ 337 017e 73686F72 		.ascii	"short unsigned int\000"
+ 337      7420756E 
+ 337      7369676E 
+ 337      65642069 
+ 337      6E7400
+ 338              	.LASF0:
+ 339 0191 7369676E 		.ascii	"signed char\000"
+ 339      65642063 
+ 339      68617200 
+ 340              	.LASF15:
+ 341 019d 4C43445F 		.ascii	"LCD_Seg_1_RestoreConfig\000"
+ 341      5365675F 
+ 341      315F5265 
+ 341      73746F72 
+ 341      65436F6E 
+ 342              	.LASF12:
+ 343 01b5 6C6F6E67 		.ascii	"long double\000"
+ 343      20646F75 
+ 343      626C6500 
+ 344              	.LASF9:
+ARM GAS  C:\Users\iborg\AppData\Local\Temp\ccx5Vb50.s 			page 10
+
+
+ 345 01c1 666C6F61 		.ascii	"float\000"
+ 345      7400
+ 346              	.LASF19:
+ 347 01c7 47656E65 		.ascii	"Generated_Source\\PSoC4\\LCD_Seg_1_PM.c\000"
+ 347      72617465 
+ 347      645F536F 
+ 347      75726365 
+ 347      5C50536F 
+ 348              	.LASF13:
+ 349 01ed 73697A65 		.ascii	"sizetype\000"
+ 349      74797065 
+ 349      00
+ 350              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
