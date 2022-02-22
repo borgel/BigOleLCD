@@ -12,6 +12,8 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="3b79d1e0-e222-470b-b01f-6509d9e61fec" value="PWM_1_Out" />
+      <Data key="3dbba19d-7851-4a83-b204-a0a386fe8d68/5382e105-1382-4a2e-b9f4-3bb2feba71e0" value="I2C_1_sda" />
+      <Data key="3dbba19d-7851-4a83-b204-a0a386fe8d68/22863ebe-a37b-476f-b252-6e49a8c00b12" value="I2C_1_scl" />
       <Data key="4c15b41e-e284-4978-99e7-5aaee19bd0ce" value="Wakeup_Pin" />
       <Data key="5a82cca1-26f0-4d20-9b18-770525e0ad52/73b612cd-240c-4d8e-8340-ea28aabf4b11" value="CapSense_Sns" />
       <Data key="5a82cca1-26f0-4d20-9b18-770525e0ad52/899719c0-e797-4403-a44f-07a66de2cbeb" value="CapSense_Cmod" />
@@ -1242,31 +1244,53 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="3dbba19d-7851-4a83-b204-a0a386fe8d68/5382e105-1382-4a2e-b9f4-3bb2feba71e0">
+      <Group key="0">
+        <Data key="Port Format" value="0,5" />
+      </Group>
+    </Group>
+    <Group key="3dbba19d-7851-4a83-b204-a0a386fe8d68/22863ebe-a37b-476f-b252-6e49a8c00b12">
+      <Group key="0">
+        <Data key="Port Format" value="0,4" />
+      </Group>
+    </Group>
     <Group key="13e582ff-5655-49b2-bf72-1dc1f59ad418/52f31aa9-2f0a-497d-9a1f-1424095e13e6">
       <Group key="0">
-        <Data key="Port Format" value="2,0" />
+        <Data key="Port Format" value="0,0" />
+      </Group>
+      <Group key="1">
+        <Data key="Port Format" value="0,1" />
+      </Group>
+      <Group key="2">
+        <Data key="Port Format" value="0,2" />
+      </Group>
+      <Group key="3">
+        <Data key="Port Format" value="0,3" />
       </Group>
     </Group>
     <Group key="13e582ff-5655-49b2-bf72-1dc1f59ad418/653634b8-ab7a-4598-bfff-109548996fd0">
       <Group key="0">
-        <Data key="Port Format" value="2,1" />
+        <Data key="Port Format" value="2,0" />
       </Group>
       <Group key="1">
-        <Data key="Port Format" value="2,2" />
+        <Data key="Port Format" value="2,1" />
       </Group>
       <Group key="2">
-        <Data key="Port Format" value="2,3" />
+        <Data key="Port Format" value="2,2" />
       </Group>
       <Group key="3">
-        <Data key="Port Format" value="2,4" />
+        <Data key="Port Format" value="2,3" />
       </Group>
       <Group key="4">
-        <Data key="Port Format" value="2,5" />
+        <Data key="Port Format" value="2,4" />
       </Group>
       <Group key="5">
-        <Data key="Port Format" value="2,6" />
+        <Data key="Port Format" value="2,5" />
       </Group>
       <Group key="6">
+        <Data key="Port Format" value="2,6" />
+      </Group>
+      <Group key="7">
         <Data key="Port Format" value="2,7" />
       </Group>
     </Group>
